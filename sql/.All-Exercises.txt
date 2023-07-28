@@ -1,1 +1,116 @@
-https://e-learning.educom.nu/elaborations/sql/nw-opdrachten-1
+Link: https://e-learning.educom.nu/elaborations/sql/nw-opdrachten-1
+
+Voorbereiding
+
+Doorloop het SQL Tutorial op W3Schools
+Opdracht FK's
+
+    Maak alle (fysieke) foreign keys aan in je database. 
+    Lukt dit niet? Onderzoek en beschrijf waarom dit niet lukt. 
+    Corrigeer de eventuele fouten. 
+
+Opdrachten
+
+    Create a report that shows the CategoryName and Description from the categories table sorted by CategoryName.
+
+    Create a report that shows the ContactName, CompanyName, ContactTitle and Phone number from the customers table sorted by Phone.
+
+    Create a report that shows the capitalized FirstName and capitalized LastName renamed as FirstName and Lastname respectively and HireDate from the employees table sorted from the newest to the oldest employee.
+
+    Create a report that shows the top 10 OrderID, OrderDate, ShippedDate, CustomerID, Freight from the orders table sorted by Freight in descending order.
+
+    Create a report that shows all the CustomerID in lowercase letter and renamed as ID from the customers table.
+
+    Create a report that shows the CompanyName, Fax, Phone, Country, HomePage from the suppliers table sorted by the Country in descending order then by CompanyName in ascending order.
+
+    Create a report that shows CompanyName, ContactName of all customers from ‘Buenos Aires' only.
+
+    Create a report showing ProductName, UnitPrice, QuantityPerUnit of products that are out of stock.
+
+    Create a report showing all the ContactName, Address, City of all customers not from Germany, Mexico, Spain.
+
+    Create a report showing OrderDate, ShippedDate, CustomerID, Freight of all orders placed on 21 May 1996.
+
+    Create a report showing FirstName, LastName, Country from the employees not from United States.
+
+    Create a report that shows the EmployeeID, OrderID, CustomerID, RequiredDate, ShippedDate from all orders shipped later than the required date.
+
+    Create a report that shows the City, CompanyName, ContactName of customers from cities starting with A or B.
+
+    Create a report showing all the even numbers of OrderID from the orders table.
+
+    Create a report that shows all the orders where the freight cost more than $500.
+
+    Create a report that shows the ProductName, UnitsInStock, UnitsOnOrder, ReorderLevel of all products that are up for reorder.
+
+    Create a report that shows the CompanyName, ContactName number of all customer that have no fax number.
+
+    Create a report that shows the FirstName, LastName of all employees that do not report to anybody.
+
+    Create a report showing all the odd numbers of OrderID from the orders table.
+
+    Create a report that shows the CompanyName, ContactName, Fax of all customers that do not have Fax number and sorted by ContactName.
+
+    Create a report that shows the City, CompanyName, ContactName of customers from cities that has letter L in the name sorted by ContactName.
+
+    Create a report that shows the FirstName, LastName, BirthDate of employees born in the 1950s.
+
+    Create a report that shows the FirstName, LastName, the year of Birthdate as birth year from the employees table.
+
+    Create a report showing OrderID, total number of Order ID as NumberofOrders from the orderdetails table grouped by OrderID and sorted by NumberofOrders in descending order. HINT: you will need to use a Groupby statement.
+
+    Create a report that shows the SupplierID, ProductName, CompanyName from all product Supplied by Exotic Liquids, Specialty Biscuits, Ltd., Escargots Nouveaux sorted by the supplier ID
+
+    Create a report that shows the ShipPostalCode, OrderID, OrderDate, RequiredDate, ShippedDate, ShipAddress of all orders with ShipPostalCode beginning with "98124".
+
+    Create a report that shows the ContactName, ContactTitle, CompanyName of customers that the has no "Sales" in their ContactTitle.
+
+    Create a report that shows the LastName, FirstName, City of employees in cities other "Seattle";
+
+    Create a report that shows the CompanyName, ContactTitle, City, Country of all customers in any city in Mexico or other cities in Spain other than Madrid.
+
+    Create a select statement that outputs the following:
+
+    Create a report that shows the ContactName of all customers that do not have letter A as the second alphabet in their Contactname.
+
+    Create a report that shows the average UnitPrice rounded to the next whole number, total price of UnitsInStock and maximum number of orders from the products table. All saved as AveragePrice, TotalStock and MaxOrder respectively.
+
+    Create a report that shows the SupplierID, CompanyName, CategoryName, ProductName and UnitPrice from the products, suppliers and categories table.
+
+    Create a report that shows the CustomerID, sum of Freight, from the orders table with sum of freight greater $200, grouped by CustomerID. HINT: you will need to use a Group by and a Having statement.
+
+    Create a report that shows the OrderID ContactName, UnitPrice, Quantity, Discount from the order details, orders and customers table with discount given on every purchase.
+
+    Create a report that shows the EmployeeID, the LastName and FirstName as employee, and the LastName and FirstName of who they report to as manager from the employees table sorted by Employee ID. HINT: This is a SelfJoin.
+
+    Create a report that shows the average, minimum and maximum UnitPrice of all products as AveragePrice, MinimumPrice and MaximumPrice respectively.
+
+    Create a view named CustomerInfo that shows the CustomerID, CompanyName, ContactName, ContactTitle, Address, City, Country, Phone, OrderDate, RequiredDate, ShippedDate from the customers and orders table. HINT: Create a View.
+
+    Change the name of the view you created from customerinfo to customer details.
+
+    Create a view named ProductDetails that shows the ProductID, CompanyName, ProductName, CategoryName, Description, QuantityPerUnit, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel, Discontinued from the supplier, products and categories tables. HINT: Create a View
+
+    Drop the customer details view.
+
+    Create a report that fetch the first 5 character of categoryName from the category tables and renamed as ShortInfo
+
+    Create a copy of the shipper table as shippers_duplicate. Then insert a copy of shippers data into the new table HINT: Create a Table, use the LIKE Statement and INSERT INTO statement.
+
+    Create a select statement that outputs the following from the shippers_duplicate Table:
+
+    Create a report that shows the CompanyName and ProductName from all product in the Seafood category.
+
+    Create a report that shows the CategoryID, CompanyName and ProductName from all product in the categoryID 5.
+
+    Delete the shippers_duplicate table.
+
+    Create a select statement that ouputs the following from the employees table. NB: The age might differ depending on the year you are attempting this query.
+
+    Create a report that the CompanyName and total number of orders by customer renamed as number of orders since Decemeber 31, 1994. Show number of Orders greater than 10.
+
+    Create a select statement that ouputs the following from the product table 
+
+info
+
+It should return 77 rows
